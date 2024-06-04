@@ -1,0 +1,34 @@
+body {
+    background-color: black;
+}
+.post {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+.header {
+    display: flex;
+    width: 490px;
+    height: fit-content;
+    background-color: white;
+    padding: 5px;
+}
+.elli {
+    margin-left: auto;
+}
+.post-body {
+    display: flex;
+    
+}
+.icons {
+    display: flex;
+    background-color: white;
+    width: 500px;
+    height: fit-content;
+    margin-top: 0px;
+}
+img {
+    width: 500px;
+    height: 400px;
+}
