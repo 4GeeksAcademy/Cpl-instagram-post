@@ -50,7 +50,6 @@ img {
   width: 400px;
 }
 
-.post-icons {
-    display: flex;
+.post-icons > i {
     padding: 1px;
 }
