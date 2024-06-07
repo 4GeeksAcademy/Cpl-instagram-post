@@ -12,13 +12,20 @@ body {
   display: flex;
   background: white;
   width: 390px;
-  padding: 10px 5px;
+  padding: 5px;
+  align-items: center;
+}
+
+.marker1 {
+  display: flex;
+  justify-content: flex-end;
+  width: 270px;
 }
 
 .marker {
   display: flex;
   justify-content: flex-end;
-  width: 290px;
+  width: 330px;
 }
 
 .name {
@@ -37,15 +44,10 @@ body {
   width: 390px;
   padding: 5px;
 }
+
 img {
   height: 500px;
   width: 400px;
-  margin: 0px;
-}
-
-.marker {
-    width: 330px;
-    justify-content: flex-end;
 }
 
 .post-icons {
