@@ -1,34 +1,54 @@
 body {
-    background-color: black;
+  background-color: black;
 }
+
 .post {
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
 }
-.header {
-    display: flex;
-    width: 490px;
-    height: fit-content;
-    background-color: white;
-    padding: 5px;
+
+.post-header {
+  display: flex;
+  background: white;
+  width: 390px;
+  padding: 10px 5px;
 }
-.elli {
-    margin-left: auto;
+
+.marker {
+  display: flex;
+  justify-content: flex-end;
+  width: 290px;
 }
+
+.name {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: column;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
 .post-body {
-    display: flex;
-    
-}
-.icons {
-    display: flex;
-    background-color: white;
-    width: 500px;
-    height: fit-content;
-    margin-top: 0px;
+  display: flex;
+  background: white;
+  flex-wrap: wrap;
+  width: 390px;
+  padding: 5px;
 }
 img {
-    width: 500px;
-    height: 400px;
+  height: 500px;
+  width: 400px;
+  margin: 0px;
+}
+
+.marker {
+    width: 330px;
+    justify-content: flex-end;
+}
+
+.post-icons {
+    display: flex;
+    padding: 1px;
 }
