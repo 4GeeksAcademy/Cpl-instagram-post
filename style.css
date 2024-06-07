@@ -22,6 +22,14 @@ body {
   width: 270px;
 }
 
+.post-icons > i {
+  padding: 1px;
+}
+.post-icons {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .marker {
   display: flex;
   justify-content: flex-end;
@@ -48,8 +56,4 @@ body {
 img {
   height: 500px;
   width: 400px;
-}
-
-.post-icons > i {
-    padding: 1px;
 }
